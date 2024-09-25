@@ -98,33 +98,36 @@ const Jobs = () => {
           navigation={true}
           modules={[Pagination, Navigation]}>
           {jobsData &&
-            jobsData.map(({ node }, i) => {
-              const { frontmatter, html } = node;
-              const { title, company, range } = frontmatter;
+            jobsData
+              .slice()
+              .reverse()
+              .map(({ node }, i) => {
+                const { frontmatter, html } = node;
+                const { title, company, range } = frontmatter;
 
-              return (
-                <SwiperSlide key={i} width={'auto'}>
-                  <StyledTabPanel>
-                    <div className="inner-padding">
-                      <h3>
-                        <span>{title}</span>
-                        <span className="company">
-                          &nbsp;@&nbsp;
-                          <span className="inline-link">{company}</span>
-                        </span>
-                      </h3>
+                return (
+                  <SwiperSlide key={i} width={'auto'}>
+                    <StyledTabPanel>
+                      <div className="inner-padding">
+                        <h3>
+                          <span>{title}</span>
+                          <span className="company">
+                            &nbsp;@&nbsp;
+                            <span className="inline-link">{company}</span>
+                          </span>
+                        </h3>
 
-                      <p className="range">{range}</p>
+                        <p className="range">{range}</p>
 
-                      <div
-                        dangerouslySetInnerHTML={{ __html: html }}
-                        style={{ fontSize: 'var(--fz-lg)' }}
-                      />
-                    </div>
-                  </StyledTabPanel>
-                </SwiperSlide>
-              );
-            })}
+                        <div
+                          dangerouslySetInnerHTML={{ __html: html }}
+                          style={{ fontSize: 'var(--fz-lg)' }}
+                        />
+                      </div>
+                    </StyledTabPanel>
+                  </SwiperSlide>
+                );
+              })}
         </Swiper>
       </div>
     </StyledJobsSection>

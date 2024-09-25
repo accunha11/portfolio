@@ -21,7 +21,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -71,7 +71,7 @@ const About = () => {
               <br />
               <br />
               I love creating cool projects and am always up for a new challenge! <br />
-              <br /> I coded up this webstie to share a little about my past experience and some of
+              <br /> I coded up this website to share a little about my past experience and some of
               my favorite projects. <br />
               <br />
               Here are some of the technologies I've been working with recently:
