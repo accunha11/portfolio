@@ -1,7 +1,7 @@
 import React from 'react';
 
 const IconMail = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 512 512">
+  <svg xmlns="https://www.w3.org/2000/svg" role="img" viewBox="0 0 512 512">
     <title>Mail</title>
     <path
       d="M510.678,112.275c-2.308-11.626-7.463-22.265-14.662-31.054c-1.518-1.915-3.104-3.63-4.823-5.345
