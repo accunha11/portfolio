@@ -1,13 +1,13 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/portfolio-v1',
+  pathPrefix: '/portfolio',
   siteMetadata: {
     title: 'Ana Cunha',
     description:
       'Hi, my name is Ana! I am a software engineer and I coded up this website to show a little bit of my work.',
-    siteUrl: 'https://accunha11.github.io/portfolio-v1',
-    image: '/portfolio-v1/logo.png',
+    siteUrl: 'https://accunha11.github.io/portfolio',
+    image: '/portfolio/logo.png',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -41,7 +41,7 @@ module.exports = {
       options: {
         name: 'Ana Cunha',
         short_name: 'Ana Cunha',
-        start_url: '/portfolio-v1/',
+        start_url: '/portfolio/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',

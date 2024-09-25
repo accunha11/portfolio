@@ -1,12 +1,12 @@
 {
-  "homepage": "https://accunha11.github.io/portfolio-v1",
-  "name": "portfolio-v1",
+  "homepage": "https://accunha11.github.io/portfolio",
+  "name": "portfolio",
   "description": "Personal Website",
   "version": "1.0.0",
   "author": "Ana Cunha <anacrcunha00@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/accunha11/portfolio-v1"
+    "url": "https://github.com/accunha11/portfolio"
   },
   "keywords": [
     "gatsby"

@@ -1,4 +1,4 @@
-# portfolio-v1
+# portfolio
 
 ## Installation & Set Up
 
