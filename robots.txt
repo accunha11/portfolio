@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://accunha11.github.io/portfolio/sitemap-index.xml
-Host: https://accunha11.github.io
+Sitemap: https://acunha.dev/portfolio/sitemap-index.xml
+Host: https://acunha.dev
