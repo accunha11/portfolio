@@ -14,7 +14,7 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
     "predeploy": "gatsby build --prefix-paths",
     "build": "gatsby build",
     "develop": "gatsby develop",
