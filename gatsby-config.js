@@ -40,7 +40,7 @@ module.exports = {
       options: {
         name: 'Ana Cunha',
         short_name: 'Ana Cunha',
-        start_url: '/',
+        start_url: '/portfolio',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
