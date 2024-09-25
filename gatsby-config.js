@@ -4,8 +4,7 @@ module.exports = {
   pathPrefix: '/portfolio',
   siteMetadata: {
     title: 'Ana Cunha',
-    description:
-      'Hi, my name is Ana! I am a software engineer and I coded up this website to show a little bit of my work.',
+    description: '',
     siteUrl: 'https://acunha.dev',
     image: '/portfolio/logo.png',
   },
@@ -41,7 +40,7 @@ module.exports = {
       options: {
         name: 'Ana Cunha',
         short_name: 'Ana Cunha',
-        start_url: '/portfolio/',
+        start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
