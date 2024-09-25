@@ -6,7 +6,7 @@ module.exports = {
     title: 'Ana Cunha',
     description:
       'Hi, my name is Ana! I am a software engineer and I coded up this website to show a little bit of my work.',
-    siteUrl: 'https://accunha11.github.io/portfolio',
+    siteUrl: 'https://acunha.dev',
     image: '/portfolio/logo.png',
   },
   plugins: [
