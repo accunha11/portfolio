@@ -22,7 +22,7 @@ const StyledHeroSection = styled.section`
     padding: 0 50px;
   }
   @media (max-width: 480px) {
-    padding: 0 25px;
+    padding: 0 35px;
   }
 
   @media (max-height: 700px) and (min-width: 700px), (max-width: 360px) {
@@ -32,7 +32,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     color: var(--white);
-    font-size: clamp(100px, 10vw, 400px);
+    font-size: clamp(80px, 10vw, 400px);
   }
 `;
 
