@@ -10,6 +10,11 @@ const StyledProjectSection = styled.section`
   background-color: var(--blue);
   padding: 100px 150px;
   padding-bottom: 150px;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   @media (max-width: 1080px) {
     padding: 80px 150px;

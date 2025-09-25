@@ -8,7 +8,7 @@ url: ''
 ---
 
 - Expedited operations within the Client Strategy team by 50% by building new client-facing features using React, TypeScript, Java, and SQL.
-- Boosted speed of access to client data for the MOPS team by 87.5% by upgrading internal tools using Python and Airflow.
-- Increased adoption of the email campaigns feature by implementing React and TypeScript components in the client UI that displayed real-time statistics.
-- Assisted the security team in ensuring client data protection by transferring 10+ services using AWS, DynamoDB, and SQL.
-- Handled client emergencies while on-call by collaborating with teammates using DataDog.
+- Optimized the MOPS team's access to client data by 87.5% through upgrading internal tools with Python, Airflow, and automated data pipelines.
+- Improved client data security by migrating 10+ services in AWS using DynamoDB and SQL, ensuring compliance with data protection protocols.
+- Boosted email campaign feature adoption by showcasing real-time statistics through enhanced React and TypeScript components in the client UI and updated GraphQL APIs.
+- On-call support for client emergencies, utilizing DataDog to debug, diagnose, and resolve complex backend issues.

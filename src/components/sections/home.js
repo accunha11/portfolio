@@ -6,11 +6,12 @@ import { ReactTyped } from 'react-typed';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
-  flex-direction: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   height: 100vh;
+  width: 100vw;
   background-color: var(--purple);
 
   padding: 0 150px;

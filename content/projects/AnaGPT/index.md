@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '4'
 title: 'AnaGPT'
 github: 'https://github.com/accunha11/ana-gpt'
 external: ''

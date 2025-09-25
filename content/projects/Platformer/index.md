@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Platformer Game'
 github: 'https://github.com/accunha11/python-platformer-game'
 external: ''

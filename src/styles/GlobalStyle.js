@@ -10,6 +10,8 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     width: 100%;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
   }
 
   *,
@@ -108,7 +110,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   main {
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     max-width: 1600px;
     min-height: 100vh;
@@ -130,8 +132,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   section {
-    margin: 0 auto;
+    margin: 0;
     padding: 100px 0;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     @media (max-width: 768px) {
       padding: 80px 0;

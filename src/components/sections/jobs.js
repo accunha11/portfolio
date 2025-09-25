@@ -13,6 +13,10 @@ import 'swiper/css/pagination';
 const StyledJobsSection = styled.section`
   background-color: var(--green);
   min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   padding: 100px 300px;
 

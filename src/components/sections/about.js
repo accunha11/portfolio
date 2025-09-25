@@ -7,6 +7,11 @@ const StyledAboutSection = styled.section`
   background-color: var(--yellow);
   grid-gap: 50px;
   padding: 100px 300px;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   @media (max-width: 1080px) {
     padding: 80px 150px;
@@ -54,8 +59,6 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'React', 'Java', 'MongoDB', 'Express', 'Swift'];
-
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="main-heading">About Me</h2>
@@ -64,21 +67,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey, my name is Ana! <br />
+              Hey, I'm Ana! <br />
               <br />
-              I'm a software engineer with a degree from UC San Diego in cognitive science
-              especializing in machine learning and neural computation.
+              I’m a full-stack software engineer with a focus on AI development. I have a Bachelor’s
+              in Cognitive Science from UC San Diego, where I specialized in machine learning and
+              neural computation. I’m currently pursuing a Master’s in Informatics at TUM, focusing
+              on machine learning and analytics.
               <br />
               <br />
-              I love creating cool projects and am always up for a new challenge! <br />
-              <br /> I coded up this website to share a little about my past experience and some of
-              my favorite projects. <br />
-              <br />
-              Here are some of the technologies I've been working with recently:
+              This site includes a selection of my past experiences and projects. I’m currently
+              focused on expanding into more AI and research-driven projects, with new work coming
+              soon.
             </p>
-            <ul className="skills-list">
-              {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-            </ul>
           </div>
         </StyledText>
       </div>
